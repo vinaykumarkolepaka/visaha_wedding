@@ -27,6 +27,7 @@
         }
     });
 
+   
 
     // Modal Video
     $(document).ready(function () {
@@ -43,6 +44,7 @@
         $('#videoModal').on('hide.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc);
         })
+        
     });
 
 

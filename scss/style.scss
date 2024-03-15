@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
 
-$primary: #E47A2E;
+$primary: #c31419;
 $secondary: #EDF5F7;
 $light: #FFFFFF;
 $dark: #121F38;
@@ -141,7 +141,24 @@ $border-width: 2px;
     left: calc(50% - 80px);
     background: $primary;
 }
-
+.section-title1::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 11px;
+    left: calc(19% - -30px);
+    background: $primary;
+}
+.section-title1::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    bottom: 11px;
+    right: calc(19% - -30px);
+    background: $primary;
+}
 .section-title::after {
     position: absolute;
     content: "";
