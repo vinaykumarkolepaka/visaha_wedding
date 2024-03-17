@@ -9805,7 +9805,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .animated-text-fade {
   display: inline-block;
-  animation: textFade 2s infinite;
+  animation: textFade 3s infinite;
 }
 
 .animated-text-slide {
