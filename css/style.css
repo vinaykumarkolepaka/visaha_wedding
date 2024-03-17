@@ -9805,7 +9805,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .animated-text-fade {
   display: inline-block;
-  animation: textFade 3s infinite;
+  animation: textFade 2s infinite;
 }
 
 .animated-text-slide {
@@ -9836,3 +9836,16 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .web {
+      display: none;
+  }
+
+  .mobile {
+      display: block;
+  }
+}
