@@ -61,11 +61,13 @@ setNavigationItem(currentIndex);
 
 
     $(document).ready(function () {
-    window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-VE8DB7N3W9');
 
-  gtag('config', 'G-3BDVCJGXP1');
     });
 
     // Navbar on scrolling
