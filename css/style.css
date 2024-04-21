@@ -9849,17 +9849,3 @@ a.text-dark:hover, a.text-dark:focus {
       display: block;
   }
 }
-
-.video-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.video-navigation {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 300px;
-  width: 130%;
-}

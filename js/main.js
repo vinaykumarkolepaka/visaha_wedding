@@ -1,73 +1,11 @@
 (function ($) {
     "use strict";
-
-
-    // var videoSources = [
-    //     "https://drive.google.com/file/d/1bcFhuRkPoVbUC9EG6VXKdUBnBERf9nPV/preview",
-    //     "https://www.youtube.com/embed/8Zja1EnmMXE?si=Agk5Nfb-JwhICkzV"
-    // ];
-    
-    // var currentIndex = 0;
-    // var videoFrame = document.getElementById("video-frame");
-    
-    // function setVideoSource() {
-    //     videoFrame.src = videoSources[currentIndex];
-    // }
-    
-    // document.getElementById("prev-video").addEventListener("click", function() {
-    //     currentIndex = (currentIndex - 1 + videoSources.length) % videoSources.length;
-    //     setVideoSource();
-    // });
-    
-    // document.getElementById("next-video").addEventListener("click", function() {
-    //     currentIndex = (currentIndex + 1) % videoSources.length;
-    //     setVideoSource();
-    // });
-    
-
-    var navigationItems = [
-    { type: "video", src: "https://drive.google.com/file/d/1bcFhuRkPoVbUC9EG6VXKdUBnBERf9nPV/preview" }
-    // { type: "image", src: "img/gallery-5.jpg" }
-];
-
-var currentIndex = 0;
-
-function setNavigationItem(index) {
-    var currentItem = navigationItems[index];
-    if (currentItem.type === "video") {
-        document.getElementById("video-frame").src = currentItem.src;
-        document.getElementById("video-frame-container").style.display = "block";
-        document.getElementById("image-frame-container").style.display = "none";
-    } else if (currentItem.type === "image") {
-        document.getElementById("image-frame").src = currentItem.src;
-        document.getElementById("image-frame-container").style.display = "block";
-        document.getElementById("video-frame-container").style.display = "none";
-    }
-}
-
-document.getElementById("prev-video").addEventListener("click", function() {
-    currentIndex = (currentIndex - 1 + navigationItems.length) % navigationItems.length;
-    setNavigationItem(currentIndex);
-});
-
-document.getElementById("next-video").addEventListener("click", function() {
-    currentIndex = (currentIndex + 1) % navigationItems.length;
-    setNavigationItem(currentIndex);
-});
-
-// Initial setup
-setNavigationItem(currentIndex);
-
-
-
     $(document).ready(function () {
-        
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-VE8DB7N3W9');
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-3BDVCJGXP1');
     });
 
     // Navbar on scrolling
